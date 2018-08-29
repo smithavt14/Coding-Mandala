@@ -1,0 +1,6 @@
+<view>
+  <text> Tasks </text>
+  <text> {{ tasks_list }} </text>
+</view>
+
+<input type="text" placeholder="New Task" bindconfirm="newTask" />
